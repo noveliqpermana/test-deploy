@@ -160,8 +160,6 @@ chat_template = ChatPromptTemplate.from_messages(
             - If a exact active ingredient is absent, recommend products from the list that address the user's overall skin condition ({skin_condition}).
             - Clearly explain WHY each product is recommended (e.g., "While this product does not contain Isotretinoin, it contains BHA which addresses similar pore congestion...").
             - Only output "None" if the provided product list is completely empty or completely irrelevant to skincare.
-            - Show preview link that shows the image of the product recomendation.
-            - Generate the image to show the image base on product link.
             """
         ),
     ]
