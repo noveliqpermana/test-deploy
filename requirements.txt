@@ -1,0 +1,15 @@
+streamlit
+numpy<2
+pandas
+tensorflow-cpu==2.20.0
+pillow
+google-genai
+pypdf
+nltk
+chromadb
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-chroma
+langchain-text-splitters
+supabase
