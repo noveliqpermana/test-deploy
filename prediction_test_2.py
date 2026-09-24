@@ -22,7 +22,7 @@ def checkpoint(name):
     print(f"CHECKPOINT: {name}", flush=True)
 
 
-CHAT_MODEL = "models/gemini-3.5-flash"
+CHAT_MODEL = "models/gemini-3.5-flash-lite"
 EMBEDDING_MODEL = "gemini-embedding-2-preview"
 CHROMA_DIR = "./chroma_db_gemini_3072"
 JOURNAL_BUCKET = "Journal"
